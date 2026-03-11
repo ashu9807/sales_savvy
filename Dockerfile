@@ -6,4 +6,4 @@ COPY . .
 
 RUN mvn clean package -DskipTests
 
-CMD ["java","-jar","target/salessavvy.jar"]
+CMD ["sh","-c","java -jar target/salessavvy.jar"]
